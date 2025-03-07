@@ -3,7 +3,7 @@ import { AssistantResponse } from "ai";
 import { HttpsProxyAgent } from "https-proxy-agent";
 
 // 设置vercel最大响应时间
-export const maxDuration = 200;
+export const maxDuration = 60;
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY || "",
