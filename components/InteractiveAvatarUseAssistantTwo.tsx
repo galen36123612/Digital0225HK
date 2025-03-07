@@ -18,8 +18,9 @@ import { PauseCircle } from "@phosphor-icons/react/dist/ssr";
 const avatarId = "ed51e110ff96491c8595cf9c9c3f6d61"; //'Angela-insuit-20220820';
 //const avatarId = "52f3786c8c9543248a5cfcddad53813a"
 //cfbdfe9fd9de4307b81719fcbc6084c0
-const voiceId = "45350457fa7248e081ca2cb64dec5e9f";
-
+const voiceId = "118e0e91a87a4e60a1353a438b3601ac";
+// 118e0e91a87a4e60a1353a438b3601ac
+// 45350457fa7248e081ca2cb64dec5e9f
 export default function InteractiveAvatar() {
   const [isLoadingSession, setIsLoadingSession] = useState(false);
   const [isLoadingRepeat, setIsLoadingRepeat] = useState(false);
