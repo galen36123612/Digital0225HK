@@ -20,7 +20,7 @@ const avatarId = "38e8e9baf95e4ce48d3371fbc3032945"; //'Angela-insuit-20220820';
 //cfbdfe9fd9de4307b81719fcbc6084c0
 // 38e8e9baf95e4ce48d3371fbc3032945 Amanda new
 // ed51e110ff96491c8595cf9c9c3f6d61
-const voiceId = "84a32476cea2462e85acff7c4ce9fa07";
+const voiceId = "ed2858c05f264dd19aa00a89a8d05b43";
 // 118e0e91a87a4e60a1353a438b3601ac
 // 45350457fa7248e081ca2cb64dec5e9f
 // amanda cantonese 8fb0398beb1845eb8437869a5932733d
