@@ -393,6 +393,7 @@ export default function InteractiveAvatar() {
                 <Button
                   // size="lg"
                   radius="full"
+                  // 0319 Testing 更改 red circle 觸控
                   className="bg-danger-500 ml-10 h-16 w-16 absolute bottom-0"
                   isIconOnly>
                   <StopCircle fontSize={80} onClick={() => handleInterrupt()} />
