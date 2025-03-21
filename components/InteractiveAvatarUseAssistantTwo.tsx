@@ -394,9 +394,16 @@ export default function InteractiveAvatar() {
                   // size="lg"
                   radius="full"
                   // 0319 Testing 更改 red circle 觸控
-                  className="bg-danger-500 ml-10 h-16 w-16 absolute bottom-0"
-                  isIconOnly>
-                  <StopCircle fontSize={80} onClick={() => handleInterrupt()} />
+                  className="bg-danger-500 ml-10 h-16 w-16 absolute bottom-0 touch-manipulation"
+                  isIconOnly
+                  onClick={() => handleInterrupt()}
+                      style={{  
+                      touchAction: "manipulation",
+                      WebkitTapHighlightColor: "transparent", 
+                      cursor: "pointer" 
+                        }} 
+                  >
+                  <StopCircle fontSize={64}  />
                 </Button>
               </div> :
               <MicrophoneInput
