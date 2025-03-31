@@ -302,7 +302,7 @@ export default function MessageList({ messages }: MessageListProps) {
     <div ref={view} className="w-full border-none flex flex-col gap-1">
       {messages.map((message: Message) => (
         <div key={message.id} className="flex flex-col relative">
-          <span className="flex-1 backdrop-blur-sm bg-white/10 rounded-md text-lg p-1 pb-8 text-[#A0A0A7] font-normal">
+          <span className="flex-1 backdrop-blur-sm bg-white/10 rounded-md text-lg p-1 pb-8 text-[#8c8c96] font-normal">
             {message.content}
           </span>
           <div 
