@@ -368,7 +368,7 @@ export default function InteractiveAvatar() {
         {debug}
       </p>*/}
       <div className="flex flex-col w-full absolute bottom-2 gap-1 px-2 z-40">
-        <div className="w-full overflow-hidden z-20 max-h-[200px] rounded py-1 mb-12">
+        <div className="w-full overflow-hidden z-20 max-h-[140px] rounded py-1 mb-12">
           <MessageList messages={messages} />
         </div>
 
